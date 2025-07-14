@@ -1,9 +1,15 @@
+import Header from "./components/Header"
+import AboutMe from "./components/AboutMe"
+
 function App() {
 
   return (
-    <>
-      <h1 className="bg-green-400 text-red-900">Heading</h1>
-    </>
+    <div className="bg-slate-100 px-3 py-8">
+      <div className="bg-white max-w-4xl mx-auto rounded-xl shadow-lg">
+        <Header />
+        <AboutMe />
+      </div>
+    </div>
   )
 }
 
