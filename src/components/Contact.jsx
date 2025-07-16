@@ -9,8 +9,8 @@ import { Github } from 'lucide-react';
 const Contact = () => {
   const socialLinks = [
     {icon: <Linkedin />, title: "LinkedIn", url: "https://www.linkedin.com"},
-    {icon: <Github />, title: "Github", url: "https://www.linkedin.com"},
-    {icon: <Twitter />, title: "Twitter", url: "https://www.linkedin.com"}
+    {icon: <Github />, title: "Github", url: "https://www.github.com"},
+    {icon: <Twitter />, title: "Twitter", url: "https://www.twitter.com"}
   ];
 
   return <div className="pb-6">
